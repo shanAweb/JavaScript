@@ -1,0 +1,11 @@
+let a = 'red';
+let b = 'blue';
+console.log("Values before swapping");
+console.log(a);
+console.log(b);
+let temp = a;
+a = b;
+b = temp;
+console.log("Values after swapping");
+console.log(a);
+console.log(b);
